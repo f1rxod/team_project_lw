@@ -1,0 +1,197 @@
+.body_index{
+    background-color: rgb(44, 92, 76);
+}
+.login{
+    border-radius: 15px;
+    background-color: rgb(231, 238, 248);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin:10% 30% ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 100px 76px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 10px;
+}
+.login a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.login a:hover{
+    color: grey;
+}
+.inputs{
+    text-align: center;
+    align-items: center;
+}
+
+.login h1{
+    text-align: center;
+}
+.log_in{
+    color: white;
+    background-color: rgb(50, 102, 52);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 5%;
+    border: none;
+}
+.sign_up{
+    border: none;
+    background-color: rgb(84, 89, 162);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.login form #username{
+    background: white url('user.png') no-repeat left;
+    background-size: 16px;
+    height:24px;
+    background-position: 2px;
+    text-align: right;
+    padding-right: 5px;
+    border: none;
+}
+.login form #password{
+    background: white url('key.png') no-repeat left;
+    background-size: 16px;
+    height: 24px;
+    background-position: 2px;
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+.living_adress{
+    border: none;
+    height: 30px;
+    width: 75%;
+}
+.register{
+    background-color: rgb(231, 238, 248);
+    margin:5% 30% ;
+    align-items: center;
+    padding: 2% 1%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 100px 76px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 10px;
+}
+.register h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.type{
+    width: 30%;
+    margin-left: 15px;
+    color: grey;
+    border: none;
+    height: 30px;
+    padding-left: 5px;
+}
+.name_of_thing{
+    width: 80%;
+    border: none;
+    margin-bottom: 20px;
+}
+.faoliyat_turi{
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 75%;
+    padding-left: 5px;
+}
+.submit{
+    display: block;
+    margin: 20px auto 0;
+    padding: 5px 50px;
+    border: none;
+    color: white;
+    background-color: rgb(84, 89, 162);
+    border-radius: 20px;
+}
+.when{
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 75%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: gray !important;
+}
+.reg_inf h1{
+    text-align: center;
+}
+.reg_inf{
+    align-items: center;
+    background-color: rgb(231, 238, 248);
+    margin:10% 25% ;
+    padding: 3% 12%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 100px 76px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 10px;
+    border-radius: 20px;
+}
+.reg_inf input{
+    border: none;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.reg_inf select{
+    border: none;
+    width: 80%;
+    height: 30px;
+}
+.file{
+    margin-top: 20px;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width:991px) {
+    .login, .register{
+        margin: 5%;
+        width: 90%;
+    }
+    .register{
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 4px;
+	background-color: gray;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}

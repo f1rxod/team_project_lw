@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body_index">
+<div class="register">
+    <form action="/register" method="post">
+        <h1>Шахсий кабинет очиш учун ариза</h1>
+        <label for="type">Субькет тури:</label>
+        <select class="type" name="type" id="">
+            <option value="yuridik">Юридик шахс</option>
+            <option value="fizik">Физик шахс</option>
+        </select>
+        <hr>
+        <label for="name_of_thing">Номи:</label> <br>
+        <input class="name_of_thing" type="text" name="name_of_thing" id="">
+        <div class="row">
+            <div class="col-lg-4">
+                <label for="faoliyat_turi">Фаолият тури</label> <br>
+                <select class="faoliyat_turi" name="faoliyat_turi" id="">
+                    <option value="" disabled selected hidden>--Танланг--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="col-lg-4">
+                <label for="faoliyat_turi">Фаолият тури</label> <br>
+                <select class="faoliyat_turi" name="faoliyat_turi" id="">
+                    <option value="" disabled selected hidden>--Танланг--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="col-lg-4">
+                <label for="stir">СТИР</label> <br>
+                <select class="faoliyat_turi" name="stir" id="">
+                    <option value="" disabled selected hidden>--Танланг--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <label for="phone_number">Телефон ракам</label>
+                <input class="faoliyat_turi" type="number" name="phone_number" id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="email">Email</label> <br>
+                <input class="faoliyat_turi" type="email" name="email" id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="location_of_thing">Манзил</label> <br>
+                <input class="faoliyat_turi" type="text" name="location_of_thing" id="">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4">
+                <label for="username">Логин</label> <br>
+                <input class="faoliyat_turi" type="text" name="username" id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="password">Пароль</label> <br>
+                <input class="faoliyat_turi" type="text" name="password" id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="confirm_password">Парольни яна бир марта</label>
+                <input class="faoliyat_turi" type="text" name="confirm_password" id="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <label for="username">Паспорт маълумотлари</label> <br>
+                <input class="faoliyat_turi" type='text' name="passport" id="" placeholder="AB123456">
+            </div>
+            <div class="col-lg-4">
+                <label for="username">Берилган качон ким томонидан</label> <br>
+                <input class="when" type="date" name="date_when" required id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="phone_number">Телефон ракам</label>
+                <input class="faoliyat_turi" type="number" name="phone_number" id="">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <label for="username">Исми</label> <br>
+                <input class="faoliyat_turi" type='text' name="name" id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="username">Фамилияси</label> <br>
+                <input class="when" type="text" name="l_name" required id="">
+            </div>
+            <div class="col-lg-4">
+                <label for="phone_number">Шарфи</label> <br>
+                <input class="faoliyat_turi" type="text" name="sharfi" id="">
+            </div>
+
+        </div>
+        <label for="living_adress">Яшаш манзили</label> <br>
+        <input class="living_adress" type="text" name="living_adress" id="">
+        <button class="submit" type="submit">Юбориш</button>
+    </form>
+</div>
+</body>
+</html>
